@@ -19,7 +19,8 @@
         <activity android:name=".CombineAcitivty" />
         <activity android:name=".DragDropActivity" />
         <activity android:name=".DragDrop2Activity" />
-        <activity android:name=".TestActivity"></activity>
+        <activity android:name=".TestActivity" />
+        <activity android:name=".expandable.ExpandableListActivity"></activity>
     </application>
 
 </manifest>

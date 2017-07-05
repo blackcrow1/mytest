@@ -7,7 +7,6 @@ package com.example.play.myapplication.dragdrop;
 public interface ItemTouchHelperViewHolder {
     /* Implementations should update the item view to indicate it's active state. */
     void onItemSelected();
-
     /*
     Called when completed the move or swipe, and the active item * state should be cleared.
     */
