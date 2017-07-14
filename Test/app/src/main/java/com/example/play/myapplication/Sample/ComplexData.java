@@ -1,4 +1,4 @@
-package com.example.play.myapplication;
+package com.example.play.myapplication.Sample;
 
 import java.util.ArrayList;
 

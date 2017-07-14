@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".Sample.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,10 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CombineAcitivty" />
-        <activity android:name=".DragDropActivity" />
-        <activity android:name=".DragDrop2Activity" />
-        <activity android:name=".TestActivity" />
+        <activity android:name=".Sample.CombineAcitivty" />
+        <activity android:name=".Sample.DragDropActivity" />
+        <activity android:name=".Sample.DragDrop2Activity" />
+        <activity android:name=".Sample.TestActivity" />
         <activity android:name=".expandable.ExpandableListActivity"></activity>
     </application>
 

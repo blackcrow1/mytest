@@ -1,4 +1,4 @@
-package com.example.play.myapplication;
+package com.example.play.myapplication.Sample;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.example.play.myapplication.expandable.ExpandableListActivity;
+import com.example.play.myapplication.R;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
     String[] values = new String[]{
@@ -47,7 +47,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 startActivity(new Intent(this, TestActivity.class));
                 break;
             case 3:
-                startActivity(new Intent(this, ExpandableListActivity.class));
                 break;
         }
     }

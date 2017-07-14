@@ -1,4 +1,4 @@
-package com.example.play.myapplication;
+package com.example.play.myapplication.Sample;
 
 import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
@@ -11,6 +11,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.example.play.myapplication.R;
 
 import java.util.ArrayList;
 import java.util.List;

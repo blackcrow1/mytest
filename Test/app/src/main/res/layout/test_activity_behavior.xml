@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.lguplus.usimsvcm.ui.custom.behavior.HeaderLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_behavior="com.lguplus.usimsvcm.ui.custom.behavior.HeaderScrollBehavior">
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/app_name"
+            android:textSize="20dp" />
+
+        <FrameLayout
+            android:id="@+id/fixed_view"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+
+
+    </com.lguplus.usimsvcm.ui.custom.behavior.HeaderLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/test_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="com.lguplus.usimsvcm.ui.custom.behavior.ContentsLayoutBehavior" />
+
+</android.support.design.widget.CoordinatorLayout>

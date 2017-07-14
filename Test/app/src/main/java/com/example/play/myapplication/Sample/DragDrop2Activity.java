@@ -1,4 +1,4 @@
-package com.example.play.myapplication;
+package com.example.play.myapplication.Sample;
 
 import android.app.Activity;
 import android.content.ClipData;
@@ -22,6 +22,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.play.myapplication.R;
 import com.example.play.myapplication.dragdrop.ItemTouchHelperAdapter;
 import com.example.play.myapplication.dragdrop.ItemTouchHelperViewHolder;
 import com.example.play.myapplication.dragdrop.OnStartDragListener;
