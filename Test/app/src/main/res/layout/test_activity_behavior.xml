@@ -4,11 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.lguplus.usimsvcm.ui.custom.behavior.HeaderLayout
+    <com.example.play.myapplication.behavior.HeaderLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_behavior="com.lguplus.usimsvcm.ui.custom.behavior.HeaderScrollBehavior">
+        app:layout_behavior="com.example.play.myapplication.behavior.HeaderScrollBehavior">
 
         <TextView
             android:id="@+id/text_view"
@@ -30,12 +30,36 @@
         </FrameLayout>
 
 
-    </com.lguplus.usimsvcm.ui.custom.behavior.HeaderLayout>
+    </com.example.play.myapplication.behavior.HeaderLayout>
+
+    <!--<android.support.v4.widget.NestedScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:fillViewport="true"-->
+        <!--app:layout_behavior="com.example.play.myapplication.behavior.ContentsLayoutBehavior">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="900dp"-->
+                <!--android:layout_gravity="bottom"-->
+                <!--android:text="Bottom" />-->
+
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Bottom" />-->
+        <!--</LinearLayout>-->
+    <!--</android.support.v4.widget.NestedScrollView>-->
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/test_recycler"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_behavior="com.lguplus.usimsvcm.ui.custom.behavior.ContentsLayoutBehavior" />
+    android:id="@+id/test_recycler"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="com.example.play.myapplication.behavior.ContentsLayoutBehavior" />
 
 </android.support.design.widget.CoordinatorLayout>

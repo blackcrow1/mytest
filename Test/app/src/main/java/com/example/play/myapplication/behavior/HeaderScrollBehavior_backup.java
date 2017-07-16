@@ -10,7 +10,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewConfiguration;
 
-import com.lguplus.usimsvcm.R;
+import com.example.play.myapplication.R;
 
 public class HeaderScrollBehavior_backup extends ViewOffsetBehavior<HeaderLayout> {
     private static final String TAG = HeaderScrollBehavior_backup.class.getSimpleName();

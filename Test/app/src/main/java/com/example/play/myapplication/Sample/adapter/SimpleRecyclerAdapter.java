@@ -16,11 +16,11 @@ public class SimpleRecyclerAdapter extends RecyclerView.Adapter<SimpleRecyclerAd
         public void OnItemClick(int position);
     }
 
-    private String[] hiddenMenu;
+    private String[] items;
     private LayoutInflater inflater;
     private OnItemClickListener listener;
-    public SimpleRecyclerAdapter(Context context, String[] hiddenMenu){
-        this.hiddenMenu = hiddenMenu;
+    public SimpleRecyclerAdapter(Context context, String[] items){
+        this.items = items;
         inflater = LayoutInflater.from(context);
     }
 
@@ -33,12 +33,12 @@ public class SimpleRecyclerAdapter extends RecyclerView.Adapter<SimpleRecyclerAd
 
     @Override
     public void onBindViewHolder(ItemViewHolder holder, int position) {
-        holder.textview.setText(hiddenMenu[position]);
+        holder.textview.setText(items[position]);
     }
 
     @Override
     public int getItemCount() {
-        return hiddenMenu.length;
+        return items.length;
     }
 
     public void setOnItemClickListener(OnItemClickListener listener){

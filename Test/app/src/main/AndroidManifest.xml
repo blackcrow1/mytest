@@ -20,7 +20,11 @@
         <activity android:name=".Sample.DragDropActivity" />
         <activity android:name=".Sample.DragDrop2Activity" />
         <activity android:name=".Sample.TestActivity" />
-        <activity android:name=".expandable.ExpandableListActivity"></activity>
+        <activity android:name=".Sample.ToolbarTest" />
+        <activity android:name=".Sample.BottomSheetActivity" />
+        <activity android:name=".Sample.NestedScrollViewActivity"></activity>
+        <activity android:name=".Sample.TestBehaviorActivity"></activity>
+        <activity android:name=".Sample.TestRecyclerActivity"></activity>
     </application>
 
 </manifest>

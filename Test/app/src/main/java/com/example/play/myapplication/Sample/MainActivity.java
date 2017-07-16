@@ -15,7 +15,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             "CombineActivity",
             "DragDrop",
             "TEST",
-            "Expandable",
+            "TestRecyclerActivity",
+            "ToolbarTest",
+            "BottomSheetActivity",
+            "NestedScrollViewActivity",
+            "TestBehaviorActivity",
     };
 
     @Override
@@ -47,6 +51,19 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 startActivity(new Intent(this, TestActivity.class));
                 break;
             case 3:
+                startActivity(new Intent(this, TestRecyclerActivity.class));
+                break;
+            case 4:
+                startActivity(new Intent(this, ToolbarTest.class));
+                break;
+            case 5:
+                startActivity(new Intent(this, BottomSheetActivity.class));
+                break;
+            case 6:
+                startActivity(new Intent(this, NestedScrollViewActivity.class));
+                break;
+            case 7:
+                startActivity(new Intent(this, TestBehaviorActivity.class));
                 break;
         }
     }

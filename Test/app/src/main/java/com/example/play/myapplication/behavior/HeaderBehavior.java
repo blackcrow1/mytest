@@ -18,6 +18,7 @@ package com.example.play.myapplication.behavior;
 
 
 import android.content.Context;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.CoordinatorLayout.Behavior;
 import android.support.v4.view.MotionEventCompat;
 import android.support.v4.view.VelocityTrackerCompat;
@@ -46,7 +47,8 @@ abstract class HeaderBehavior<V extends View> extends ViewOffsetBehavior<V> {
     private int mTouchSlop = -1;
     private VelocityTracker mVelocityTracker;
 
-    public HeaderBehavior() {}
+    public HeaderBehavior() {
+    }
 
     public HeaderBehavior(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -229,7 +231,6 @@ abstract class HeaderBehavior<V extends View> extends ViewOffsetBehavior<V> {
     }
 
 
-
     int getTopBottomOffsetForScrollingSibling() {
         return getTopAndBottomOffset();
     }
@@ -299,7 +300,7 @@ abstract class HeaderBehavior<V extends View> extends ViewOffsetBehavior<V> {
         }
     }
 
-    View getHandleView(V view){
+    View getHandleView(V view) {
         return view;
     }
 

@@ -150,11 +150,11 @@ public class DragDrop2Activity extends AppCompatActivity implements OnStartDragL
             ClipData dragData = new ClipData((String)v.getTag(), new String [] {ClipDescription.MIMETYPE_TEXT_PLAIN},item);
             View.DragShadowBuilder myShadow = new MyDragShadowBuilder(v);
 
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-                v.startDragAndDrop(dragData, myShadow, null, 0);
-            } else {
+//            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+//                v.startDragAndDrop(dragData, myShadow, null, 0);
+//            } else {
                 v.startDrag(dragData, myShadow, null, 0);
-            }
+//            }
         }
 
 

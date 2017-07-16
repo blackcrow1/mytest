@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * Created by anandbose on 09/06/15.
  */
-public abstract class HeaderSectionListAdapter<HVH extends RecyclerView.ViewHolder, FVH extends RecyclerView.ViewHolder, SVH extends SectionViewHolder, CVH extends ChildViewHolder> extends SectionListAdapter {
+public abstract class HeaderSectionListAdapter<HVH extends RecyclerView.ViewHolder, FVH extends RecyclerView.ViewHolder> extends SectionListAdapter <SectionViewHolder , ChildViewHolder >{
 
     public HeaderSectionListAdapter(List<Section> sectionList, boolean expand, boolean enableHeader, boolean enableFooter) {
         super(sectionList, expand, enableHeader, enableFooter);

@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.lguplus.usimsvcm.R;
+import com.example.play.myapplication.R;
 
 public class HeaderLayout extends LinearLayout {
     private View mFixView;

@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TestBehaviorActivity extends AppCompatActivity {
-    private static final int ITEM_COUNT = 4;
+    private static final int ITEM_COUNT = 10;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,7 +52,7 @@ public class TestBehaviorActivity extends AppCompatActivity {
         public void onBindViewHolder(ListRecyclerItemViewHolder viewHolder, int position) {
             final TextView titleView = (TextView) viewHolder.itemView.findViewById(R.id.item_title);
             if (titleView != null) {
-                titleView.setText(String.valueOf(position));
+                titleView.setText(mItemList.get(position));
             }
         }
 

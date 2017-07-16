@@ -19,7 +19,7 @@ import java.util.List;
  * Created by GPM_gclee on 2017-07-14.
  */
 
-public class SimpleHeaderSectionAdapter extends HeaderSectionListAdapter<SimpleHeaderSectionAdapter.HeaderViewHolder, SimpleHeaderSectionAdapter.FooterViewHolder, SimpleHeaderSectionAdapter.SimpleSectionViewHolder, SimpleHeaderSectionAdapter.SimpleChildViewHolder> {
+public class SimpleHeaderSectionAdapter extends HeaderSectionListAdapter<SimpleHeaderSectionAdapter.HeaderViewHolder, SimpleHeaderSectionAdapter.FooterViewHolder> {
     private Context context;
 
     public SimpleHeaderSectionAdapter(Context context, List<Section> list) {
