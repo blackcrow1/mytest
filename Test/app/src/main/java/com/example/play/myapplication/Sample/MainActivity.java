@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         // modify master branch1
         ListView listview = (ListView) findViewById(R.id.main_listview);
 
-
+//        add new branch test
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, android.R.id.text1, values);
         listview.setAdapter(adapter);
